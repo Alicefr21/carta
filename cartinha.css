@@ -1,0 +1,63 @@
+body{
+    background : linear-gradient(to right, #f00, rgb(4, 201, 250)) ;
+    
+}
+h1,h2{
+    color: white;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.painel{
+    margin: auto; 
+    background : linear-gradient(to right, #f00, rgb(4, 201, 250)) ;
+    width: 900px;
+    height: 900px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#Sim {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    width: 60px;
+    height: 40px;
+    border: 2px solid white;
+    margin-left: -70px;
+}
+#Nao {
+    position: absolute;
+    background-color:red;
+    color: white;
+    border-radius: 10px;
+    width: 60px;
+    height: 40px;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+
+@media (max-width: 600px) {
+    .painel {
+        width: 95%;
+        padding: 20px;
+    }
+
+    #Sim, #Nao {
+        width: 50px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
